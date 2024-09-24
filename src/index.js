@@ -9,6 +9,7 @@ import Home from './Components/Home'
 import Help from './Components/Help'
 import ArrayTable from './Components/ArrayTable'
 import Layout from './Layout'
+import Lab from './Components/US'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -21,6 +22,7 @@ root.render(
         <Route path="/about" element={<Aboutus />} />
         <Route path="/student" element={<ArrayTable />} />
         <Route path="/Help" element={<Help />} />
+        <Route path="/useState" element={<Lab/>} />
         </Route>
       </Routes>
     </BrowserRouter>
